@@ -36,6 +36,8 @@ wb.manage().window().maximize();
 		rb.keyPress(KeyEvent.VK_ENTER);
 		
 		wb.close();
+		
+		System.out.println("CCC");
 
 
 	}
