@@ -36,8 +36,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\591211\\Desktop\\WP\\D
 		rb.keyPress(KeyEvent.VK_ENTER);
 		
 		wd.close();
-		
-		wd.quit();
+
 
 	}
 
