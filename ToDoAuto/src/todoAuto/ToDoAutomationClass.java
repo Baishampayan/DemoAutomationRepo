@@ -14,20 +14,20 @@ public class ToDoAutomationClass {
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		// TODO Auto-generated method stub
 		
-		WebDriver wd;
+		WebDriver wb;
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\591211\\Desktop\\WP\\Driver\\chromedriver.exe");
 
 		
 		// Checking the Git Commit to do something
-		wd = new ChromeDriver();
+wb = new ChromeDriver();
 
-		wd.get("http://todomvc.com/examples/react/#/");
+wb.get("http://todomvc.com/examples/react/#/");
 
-		wd.manage().window().maximize();
+wb.manage().window().maximize();
 		
 		Thread.sleep(5000);
 		
-		WebElement e1 = wd.findElement(By.xpath("html/body/section/div/header/input[@class='new-todo']"));
+		WebElement e1 = wb.findElement(By.xpath("html/body/section/div/header/input[@class='new-todo']"));
 		
 		e1.sendKeys("abc");
 		
@@ -35,9 +35,10 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\591211\\Desktop\\WP\\D
 		
 		rb.keyPress(KeyEvent.VK_ENTER);
 		
-		wd.close();
+		wb.close();
 		
-		wd.quit();
+		System.out.println("CCC");
+
 
 	}
 
