@@ -20,7 +20,7 @@ public class ToDoAutomationClass {
 //System.setProperty("webdriver.chrome.driver", "C");
 
 		
-		// Checking the Git Commit to do something
+		// Checking the Git Commit to do something in a
 wb = new ChromeDriver();
 
 wb.get("http://todomvc.com/examples/react/#/");
