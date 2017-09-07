@@ -17,7 +17,7 @@ public class ToDoAutomationClass {
 		// TODO Auto-generated method stub
 		
 		WebDriver wb;
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\591211\\Desktop\\WP\\Driver\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver", "C");
 
 		
 		// Checking the Git Commit to do something
