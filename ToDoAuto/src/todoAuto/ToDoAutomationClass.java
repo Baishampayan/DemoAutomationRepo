@@ -25,6 +25,8 @@ wb = new ChromeDriver();
 
 wb.get("http://todomvc.com/examples/react/#/");
 
+// Demo
+
 wb.manage().window().maximize();
 		
 		Thread.sleep(5000);
